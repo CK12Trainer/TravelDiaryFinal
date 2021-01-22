@@ -1,0 +1,63 @@
+body{
+background: url(https://wallpaperxyz.com/wp-content/uploads/Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-4.jpg) no-repeat fixed center;
+font-family: "Audiowide", sans-serif;
+}
+
+div.gallery {
+	align-items: center;
+  margin-left: 10%;
+	margin-bottom: 3%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 50%;
+	background-color: #FAF93D;
+  animation-name: example;
+  animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+div.gallery:hover {
+  border: 5px solid white;
+}
+
+div.gallery img {
+	border-radius: 50%;
+  width: 100%;
+  height: 75%;
+}
+
+div.desc {
+	background-color: #0E3502;
+	color: #DAF7A6;
+  padding: 15px;
+	font-family: "Lucida Handwriting", cursive;
+  text-align: center;
+}
+
+div.tooltip {
+	  margin-left: 10%;
+		font-size: 20px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #DAF7A6;
+  color: #0E3502;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@keyframes example {
+  from {background-color: #550B03;}
+  to {background-color: #FAF93D;}
+}
