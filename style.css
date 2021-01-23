@@ -27,7 +27,7 @@ div.gallery img {
 }
 
 div.desc {
-	background-color: #0E3502;
+	background-color: #2C020B;
 	color: #DAF7A6;
   padding: 15px;
 	font-family: "Lucida Handwriting", cursive;
@@ -58,6 +58,6 @@ div.tooltip {
 }
 
 @keyframes example {
-  from {background-color: #550B03;}
-  to {background-color: #FAF93D;}
+  from {background-color: #067D06;}
+  to {background-color: #ffff3f;}
 }
